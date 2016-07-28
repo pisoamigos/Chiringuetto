@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/canchafutbol130613"
+    tools:context="com.example.chiringuetto.chiringuetto.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginLeft="-10dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="121dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/desmi"
+            android:background="@drawable/desmien"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/triful"
+            android:background="@drawable/roncero" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout3"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal|top">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/retra"
+            android:background="@drawable/retrat" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="121dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tuits"
+            android:background="@drawable/maxresdefault" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:layout_gravity="left|center_vertical"
+        >
+
+        <ImageView
+
+            android:layout_marginTop="-50dp"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/hasque" />
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-56dp"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/tweets" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="left|bottom">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/imageView3"
+
+            android:background="@drawable/desmiente" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/imageView4"
+            android:background="@drawable/trifulca" />
+    </LinearLayout>
+
+</FrameLayout>
